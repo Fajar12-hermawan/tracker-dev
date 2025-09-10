@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Documents/project/budget-traker-course/frontend/src/ui/StatCard.tsx"],"sourcesContent":["export  function StatCard({\r\n  title,\r\n  value,\r\n  icon,\r\n  change,\r\n  color,\r\n}: {\r\n  title: string;\r\n  value: string;\r\n  icon: React.ReactNode;\r\n  change: string;\r\n  color: string;\r\n}) {\r\n  return (\r\n    <article className=\"flex items-center gap-4 rounded-lg border border-gray-100 bg-white p-6 w-full overflow-hidden\">\r\n      <span className=\"rounded-full bg-blue-100 p-3 text-blue-600 shrink-0\">\r\n        {icon}\r\n      </span>\r\n      <div className=\"min-w-0\">\r\n        <p className=\"text-2xl font-semibold text-gray-900 lg:truncate\">{value}</p>\r\n        <p className=\"text-sm text-gray-500 lg:truncate\">{title}</p>\r\n        <p className={`text-xs mt-1 font-medium lg:truncate ${color}`}>{change}</p>\r\n      </div>\r\n    </article>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAQ,SAAS,SAAS,EACxB,KAAK,EACL,KAAK,EACL,IAAI,EACJ,MAAM,EACN,KAAK,EAON;IACC,qBACE,8OAAC;QAAQ,WAAU;;0BACjB,8OAAC;gBAAK,WAAU;0BACb;;;;;;0BAEH,8OAAC;gBAAI,WAAU;;kCACb,8OAAC;wBAAE,WAAU;kCAAoD;;;;;;kCACjE,8OAAC;wBAAE,WAAU;kCAAqC;;;;;;kCAClD,8OAAC;wBAAE,WAAW,CAAC,qCAAqC,EAAE,OAAO;kCAAG;;;;;;;;;;;;;;;;;;AAIxE","debugId":null}}]
+}
